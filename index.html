@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+            <!--id não pode repetir o nome-->
+        </div>
+        <!-- elemento que quando o menu abre ele aparece, e se clicado ele some e fecha o menu -->
+        <div class="fechaMenu isClose"></div>
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="bg.jpg">
+            </div>
+            <div class="banner">
+                <!--posicionamento do texto pra frente da img banner-->
+                <h1>Web Develover & Front End Designer</h1>
+                <p>Renivaldo CDS</p>
+                <button class="btn"><a href="https://api.whatsapp.com/send?phone=5518988137438&text=Olá%20Posso ajudar?"
+                        target="_blank">Saiba mais</a></button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <!--div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*5-->
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github-alt"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </aside>
+        <!--SESSÃO CONECIMENTOS-->
+        <!--section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p>lorem50)*6-->
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in cumque culpa, cum
+                            recusandae amet ea quam illo illum, laudantium quo voluptatibus eligendi ut nam ipsum
+                            doloribus, ad laboriosam dolorem minus ab aperiam unde asperiores esse! Autem consequuntur
+                            sed, maxime animi delectus incidunt, aliquam dolor quos, exercitationem nisi nostrum
+                            aperiam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Similique a molestiae reprehenderit ea iste pariatur quidem saepe! Architecto, quaerat ullam.
+                            Unde amet suscipit iusto quam minima? Molestias eos necessitatibus voluptate laudantium rem
+                            cupiditate facilis, aut ducimus, mollitia quis dolor vero natus ab. At, quasi totam
+                            provident temporibus rerum nesciunt necessitatibus aspernatur tempora, numquam repellendus
+                            explicabo, tempore dolor quisquam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Designer</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Veritatis voluptas fugit sed nobis nemo ad adipisci repellat impedit quibusdam, facilis
+                            blanditiis voluptate suscipit dolores excepturi quidem dolorem pariatur mollitia. Eaque,
+                            neque unde, voluptas blanditiis nobis qui sapiente, dolores reiciendis officia deserunt
+                            labore praesentium et nam fuga. Explicabo, quaerat nostrum impedit inventore facilis ipsam.
+                            Recusandae quae ex ratione est.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Perferendis reprehenderit maxime quibusdam illo temporibus repudiandae delectus odio
+                            excepturi, quisquam totam placeat incidunt, nostrum quae eligendi cupiditate? Quis voluptas
+                            tempore excepturi a repellendus, nemo suscipit error fugit illo totam perspiciatis sequi
+                            aliquam sunt rerum, quibusdam eaque ut ab itaque, aut neque! Quos eligendi corrupti
+                            obcaecati explicabo asperiores quod illum.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>BootStrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Dolor dolore sint corrupti consectetur, illo consequatur porro consequuntur praesentium, sed
+                            corporis id cum aspernatur esse tenetur iusto! Soluta dignissimos placeat deserunt explicabo
+                            aliquam quia perspiciatis pariatur. Eum eius facilis, veniam rem eveniet laboriosam est
+                            ipsam odio iure? Fuga officiis explicabo sequi eius adipisci voluptas libero voluptates
+                            voluptatibus at id.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github-alt"></i>
+                        <h3>Git & Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Iste, ipsam est. Dolorum ipsa nulla natus quis, hic accusantium provident numquam. Illum
+                            eaque, animi voluptate perspiciatis reiciendis dolore ipsum saepe incidunt vero
+                            necessitatibus praesentium earum sint doloremque corporis sit explicabo repellendus quia
+                            maiores iure? Hic nisi doloremque impedit odio ipsum unde fugiat quis earum eaque expedita,
+                            repellat animi natus.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimentos.png" alt="conhecimentos.png">
+                </div>
+            </div>
+
+        </section>
+
+        <!--SESSÃO PROJETOS-->
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <!--.projetos>.card>(.card-img-wrapper+.card-info>h2+h3+p+button)*3-->
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj1.jpg" alt="imagens do projeto anna hair">
+                    </div>
+                    <div class="card-info">
+                        <h2>Anna Hair</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus commodi dicta enim magni
+                            pariatur, quibusdam nobis id itaque? Quibusdam odit delectus facilis ullam impedit magnam
+                            voluptatem, excepturi ipsa fuga magni.</p>
+                        <button class="btn"><a href="#">saiba mais</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj2.jpg" alt="imagem do projeto doçuras da mila">
+                    </div>
+                    <div class="card-info">
+                        <h2>Doçuras da Mila</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ea veniam consequatur quas
+                            magnam cum sint qui libero reprehenderit, pariatur voluptas id recusandae a unde quaerat
+                            nisi quo deserunt corrupti.</p>
+                        <button class="btn"><a href="#">saiba mais</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj3.png" alt="imagens do projeto jenny salgados">
+                    </div>
+                    <div class="card-info">
+                        <h2>Jenny salgados</h2>
+                        <h3>HTML & CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim, est perferendis
+                            voluptate, provident dolores repellendus doloribus magnam aliquid nostrum exercitationem!
+                            Quod numquam sed fuga? Magnam minus temporibus nesciunt culpa?</p>
+                        <button class="btn"><a href="#">saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!--CONTATO-->
+    <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+                <h1>Contato</h1>
+                <!--FORMULÁRIO (.input-group>input.field+label.filed-label)*3 no ultimo campo será textarea-->
+                <form action=" https://web.whatsapp.com/18988137438" method="post">
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">E-mail</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="field" id="mensagem"></textarea>
+                        <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <button class="btn btn-submit" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--FORMULÁRIO DE ORÇAMENTO-->
+    <section class="sessao-orcamento" id="orcamento">
+        <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+                <label for="qtde">Qtde de Páginas</label>
+                <input type="number" min="1" name="qtde" id="qtde">
+                <label for="js">Preciso de um script JS</label>
+                <input type="checkbox" name="js" id="js">
+                <label>Layout</label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-sim">
+                        <label for="layout-sim">Preciso de um layout</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="layout" id="layout-nao">
+                        <label for="layout-nao">Já tenho um layout</label>
+                    </div>
+                </div>
+                <label for="prazo">Prazo</label>
+                <input type="range" name="prazo" id="prazo" min="1" max="10" value="1">
+                <!--adicionado value"1"-->
+                <label id="preco">R$ 0,00</label>
+                <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!--RODAPÉ-->
+    <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy 2022, RCDS <strong>Deus seja Louvado</strong>
+            </p>
+            <div class="social-list">
+                <ul>
+                    <li><a hef=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a hef=""><i class="fab fa-github-alt"></i></a></li>
+                    <li><a hef=""><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--opção pra adicionar audio na linh abaixo-->
+        <audio preload="metadata" autoplay controls loop>
+            <source src="_audio/audio.mp3" type="audio/mpeg">
+            <source src="_audio/audio.mp3" type="audio/ogg">
+            <source src="_audio/audio.mp3" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="_audio/audio.mp3">Clique aqui para
+                    baixar o arquivo MP3</a></p>
+        </audio>
+    </footer>
+    <!--BOTÃO HOME-->
+    <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+<script src="script.js"></script>
+
+</html>
