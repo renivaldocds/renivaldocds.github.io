@@ -1,0 +1,19 @@
+.elementor-kit-5{--e-global-color-primary:#000000;--e-global-color-secondary:#000000;--e-global-color-text:#323844;--e-global-color-accent:#323844;--e-global-color-1a91dc7:#FFF159;--e-global-color-3d44fed:#ADADAD;--e-global-typography-primary-font-family:"Montserrat";--e-global-typography-primary-font-weight:500;--e-global-typography-secondary-font-family:"Montserrat";--e-global-typography-secondary-font-weight:500;--e-global-typography-text-font-family:"Poppins";--e-global-typography-text-font-weight:500;--e-global-typography-accent-font-family:"Jost";--e-global-typography-accent-font-weight:500;--e-global-typography-e2868cf-font-family:"quiche";color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );background-color:#FCFAFA;}.elementor-kit-5 a{color:var( --e-global-color-accent );font-family:"Questrial", Sans-serif;font-size:18px;font-weight:400;}.elementor-kit-5 h1{color:var( --e-global-color-primary );font-family:"Questrial", Sans-serif;font-weight:600;}.elementor-kit-5 h2{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-kit-5 h3{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-kit-5 h4{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-kit-5 h5{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-kit-5 h6{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-kit-5 button,.elementor-kit-5 input[type="button"],.elementor-kit-5 input[type="submit"],.elementor-kit-5 .elementor-button{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );color:#FFFFFF;background-color:#FFF159;border-radius:30px 30px 30px 30px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */i.eicon-chevron-right {
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+i.eicon-chevron-left {
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 5px;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'quiche';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('./../../2023/02/quiche-display-regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
